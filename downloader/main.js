@@ -1,4 +1,4 @@
-window.onload = function () {
+window.onload = () => {
 	const error = text => {
 		document.title = "Downloader - Failed";
 		document.body.innerHTML = text;
