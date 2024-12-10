@@ -298,41 +298,41 @@ code {
 
 @font-face {
 	font-family: Discord;
-	src: url(/_res/fonts/Discord.otf);
+	src: url(https://cdn.jsdelivr.net/gh/wont-stream/mwittrien.github.io@master/_res/fonts/Discord.otf);
 	font-display: swap;
 }
 @font-face {
 	font-family: Whitney;
 	font-weight: 300;
-	src: url(/_res/fonts/Whitney300.woff)
+	src: url(https://cdn.jsdelivr.net/gh/wont-stream/mwittrien.github.io@master/_res/fonts/Whitney300.woff)
 		format("woff");
 	font-display: swap;
 }
 @font-face {
 	font-family: Whitney;
 	font-weight: 400;
-	src: url(/_res/fonts/Whitney400.woff)
+	src: url(https://cdn.jsdelivr.net/gh/wont-stream/mwittrien.github.io@master/_res/fonts/Whitney400.woff)
 		format("woff");
 	font-display: swap;
 }
 @font-face {
 	font-family: Whitney;
 	font-weight: 500;
-	src: url(/_res/fonts/Whitney500.woff)
+	src: url(https://cdn.jsdelivr.net/gh/wont-stream/mwittrien.github.io@master/_res/fonts/Whitney500.woff)
 		format("woff");
 	font-display: swap;
 }
 @font-face {
 	font-family: Whitney;
 	font-weight: 600;
-	src: url(/_res/fonts/Whitney600.woff)
+	src: url(https://cdn.jsdelivr.net/gh/wont-stream/mwittrien.github.io@master/_res/fonts/Whitney600.woff)
 		format("woff");
 	font-display: swap;
 }
 @font-face {
 	font-family: Whitney;
 	font-weight: 700;
-	src: url(/_res/fonts/Whitney700.woff)
+	src: url(https://cdn.jsdelivr.net/gh/wont-stream/mwittrien.github.io@master/_res/fonts/Whitney700.woff)
 		format("woff");
 	font-display: swap;
 }
