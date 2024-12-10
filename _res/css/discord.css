@@ -32,7 +32,8 @@
 	--scrollbar-dark-thumb: #18191c;
 	--scrollbar-dark-track: #202225;
 	--elevation-stroke: 0 0 0 1px rgba(4, 4, 5, 0.15);
-	--elevation-low: 0 1px 0 rgba(4, 4, 5, 0.2), 0 1.5px 0 rgba(6, 6, 7, 0.05), 0 2px 0 rgba(4, 4, 5, 0.05);
+	--elevation-low: 0 1px 0 rgba(4, 4, 5, 0.2), 0 1.5px 0 rgba(6, 6, 7, 0.05), 0
+		2px 0 rgba(4, 4, 5, 0.05);
 	--elevation-medium: 0 4px 4px rgba(0, 0, 0, 0.16);
 	--elevation-high: 0 8px 16px rgba(0, 0, 0, 0.24);
 	--blurple: #7289da;
@@ -99,7 +100,8 @@
 	--scrollbar-dark-thumb: #aaa;
 	--scrollbar-dark-track: #ccc;
 	--elevation-stroke: 0 0 0 1px rgba(6, 6, 7, 0.08);
-	--elevation-low: 0 1px 0 rgba(6, 6, 7, 0.1), 0 1.5px 0 rgba(6, 6, 7, 0.025), 0 2px 0 rgba(6, 6, 7, 0.025);
+	--elevation-low: 0 1px 0 rgba(6, 6, 7, 0.1), 0 1.5px 0 rgba(6, 6, 7, 0.025), 0
+		2px 0 rgba(6, 6, 7, 0.025);
 	--elevation-medium: 0 4px 4px rgba(0, 0, 0, 0.08);
 	--elevation-high: 0 8px 16px rgba(0, 0, 0, 0.16);
 	--blurple: #7289da;
@@ -133,7 +135,61 @@
 	--deprecated-text-input-prefix: #b9bbbe;
 }
 
-a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, form, h1, h2, h3, h4, h5, h6, html, iframe, img, ins, kbd, label, legend, li, object, ol, p, pre, q, s, samp, small, span, strike, strong, table, tbody, td, tfoot, th, thead, tr, tt, ul, var {
+a,
+abbr,
+acronym,
+address,
+applet,
+big,
+blockquote,
+body,
+caption,
+cite,
+code,
+dd,
+del,
+dfn,
+div,
+dl,
+dt,
+em,
+fieldset,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+html,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+object,
+ol,
+p,
+pre,
+q,
+s,
+samp,
+small,
+span,
+strike,
+strong,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr,
+tt,
+ul,
+var {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -155,7 +211,7 @@ body {
 	line-height: 1;
 	margin: 0;
 	padding: 0;
-	font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-family: Whitney, Helvetica Neue, Arial, sans-serif;
 	overflow: hidden;
 	user-select: none;
 	background: transparent;
@@ -163,37 +219,62 @@ body {
 p {
 	margin: 14px 0;
 }
-ol, ul {
+ol,
+ul {
 	list-style: none;
 }
 
-::-webkit-input-placeholder, input, select, textarea {
-	font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+::-webkit-input-placeholder,
+input,
+select,
+textarea {
+	font-family: Whitney, Helvetica Neue, Arial, sans-serif;
 	font-weight: 400;
 }
-::-moz-placeholder, input, select, textarea {
-	font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+::-moz-placeholder,
+input,
+select,
+textarea {
+	font-family: Whitney, Helvetica Neue, Arial, sans-serif;
 	font-weight: 400;
 }
-:-ms-input-placeholder, input, select, textarea {
-	font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+:-ms-input-placeholder,
+input,
+select,
+textarea {
+	font-family: Whitney, Helvetica Neue, Arial, sans-serif;
 	font-weight: 400;
 }
-::placeholder, input, select, textarea {
-	font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+::placeholder,
+input,
+select,
+textarea {
+	font-family: Whitney, Helvetica Neue, Arial, sans-serif;
 	font-weight: 400;
 }
-@media (-webkit-max-device-pixel-ratio: 1) {
-	.theme-light ::-webkit-input-placeholder, .theme-light input, .theme-light select, .theme-light textarea {
+@media (max-resolution: 96dpi) {
+	.theme-light ::-webkit-input-placeholder,
+	.theme-light input,
+	.theme-light select,
+	.theme-light textarea {
 		font-weight: 500;
 	}
-	.theme-light ::-moz-placeholder, .theme-light input, .theme-light select, .theme-light textarea {
+	.theme-light ::-moz-placeholder,
+	.theme-light input,
+	.theme-light select,
+	.theme-light textarea {
 		font-weight: 500;
 	}
-	.theme-light :-ms-input-placeholder, .theme-light input, .theme-light select, .theme-light textarea {
+	.theme-light :-ms-input-placeholder,
+	.theme-light input,
+	.theme-light select,
+	.theme-light textarea {
 		font-weight: 500;
 	}
-	.theme-light ::placeholder, .theme-light input, .theme-light select, .theme-light textarea {
+	.theme-light ::placeholder,
+	.theme-light input,
+	.theme-light select,
+	.theme-light textarea {
 		font-weight: 500;
 	}
 }
@@ -202,54 +283,62 @@ strong {
 	font-weight: 600;
 }
 button {
-	font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-family: Whitney, Helvetica Neue, Arial, sans-serif;
 	font-weight: 500;
 	border: 0;
 	cursor: pointer;
 }
 code {
-	font-family: Consolas, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Monaco, Courier New, Courier, monospace;
+	font-family: Consolas, "Lucida Console", "DejaVu Sans Mono",
+		"Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco,
+		"Courier New", Courier, monospace;
 	font-size: 14px;
 	line-height: 16px;
 }
 
 @font-face {
 	font-family: Discord;
-	src: url(https://mwittrien.github.io/_res/fonts/Discord.otf);
+	src: url(/_res/fonts/Discord.otf);
 	font-display: swap;
 }
 @font-face {
 	font-family: Whitney;
 	font-weight: 300;
-	src: url(https://mwittrien.github.io/_res/fonts/Whitney300.woff) format("woff");
+	src: url(/_res/fonts/Whitney300.woff)
+		format("woff");
 	font-display: swap;
 }
 @font-face {
 	font-family: Whitney;
 	font-weight: 400;
-	src: url(https://mwittrien.github.io/_res/fonts/Whitney400.woff) format("woff");
+	src: url(/_res/fonts/Whitney400.woff)
+		format("woff");
 	font-display: swap;
 }
 @font-face {
 	font-family: Whitney;
 	font-weight: 500;
-	src: url(https://mwittrien.github.io/_res/fonts/Whitney500.woff) format("woff");
+	src: url(/_res/fonts/Whitney500.woff)
+		format("woff");
 	font-display: swap;
 }
 @font-face {
 	font-family: Whitney;
 	font-weight: 600;
-	src: url(https://mwittrien.github.io/_res/fonts/Whitney600.woff) format("woff");
+	src: url(/_res/fonts/Whitney600.woff)
+		format("woff");
 	font-display: swap;
 }
 @font-face {
 	font-family: Whitney;
 	font-weight: 700;
-	src: url(https://mwittrien.github.io/_res/fonts/Whitney700.woff) format("woff");
+	src: url(/_res/fonts/Whitney700.woff)
+		format("woff");
 	font-display: swap;
 }
 
-body, html {
+body,
+html {
 	height: 100%;
 	width: 100%;
 }
@@ -259,24 +348,52 @@ body {
 	text-rendering: optimizeLegibility;
 }
 
-::-webkit-input-placeholder, body, button, input, select, textarea {
-	font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+::-webkit-input-placeholder,
+body,
+button,
+input,
+select,
+textarea {
+	font-family: Whitney, Helvetica Neue, Arial, sans-serif;
 	text-rendering: optimizeLegibility;
 }
-::-moz-placeholder, body, button, input, select, textarea {
-	font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+::-moz-placeholder,
+body,
+button,
+input,
+select,
+textarea {
+	font-family: Whitney, Helvetica Neue, Arial, sans-serif;
 	text-rendering: optimizeLegibility;
 }
-:-ms-input-placeholder, body, button, input, select, textarea {
-	font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+:-ms-input-placeholder,
+body,
+button,
+input,
+select,
+textarea {
+	font-family: Whitney, Helvetica Neue, Arial, sans-serif;
 	text-rendering: optimizeLegibility;
 }
-::placeholder, body, button, input, select, textarea {
-	font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+::placeholder,
+body,
+button,
+input,
+select,
+textarea {
+	font-family: Whitney, Helvetica Neue, Arial, sans-serif;
 	text-rendering: optimizeLegibility;
 }
 
-a, button, div, input, label, select, span, strong, textarea {
+a,
+button,
+div,
+input,
+label,
+select,
+span,
+strong,
+textarea {
 	outline: 0;
 }
 img[alt] {

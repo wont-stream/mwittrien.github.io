@@ -1,0 +1,15 @@
+{
+	"name": "mwittrien.github.io",
+	"module": "index.ts",
+	"devDependencies": {
+		"@types/bun": "latest"
+	},
+	"peerDependencies": {
+		"typescript": "^5.0.0"
+	},
+	"type": "module",
+	"dependencies": {
+		"@biomejs/biome": "^1.9.4"
+	},
+	"trustedDependencies": ["@biomejs/biome"]
+}
